@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="icon" href="images/icons/broswerIcon.png" />
+    <title>Φωτοκύτταρο</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/main.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 1250px)"
+      href="styles/tablet.css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 600px)"
+      href="styles/smartphone.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aleo&family=Anton&family=Arapey&family=Catamaran:wght@200;700&family=Comfortaa&family=Montserrat&family=Noto+Sans&family=Open+Sans:wght@400;700&family=PT+Sans+Caption&family=Roboto+Slab&family=Russo+One&family=Uchen&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Source+Serif+Pro:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      defer
+      src="https://kit.fontawesome.com/4574fc0a2a.js"
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="script.js"></script>
+  </head>
+  <div id="intro" class="to--hidden">
+    <p>Φ</p>
+    <div id="loadbar">
+      <div id="load"></div>
+    </div>
+  </div>
+  <body>
+    <header>
+      <div id="main--header">
+        <ul>
+          <li id="home" class="selected--section">Home</li>
+          <li id="location">Location</li>
+          <li id="calc">Calculator</li>
+          <li id="about">About Us</li>
+          <li id="contact">Contact</li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <section id="home--1" class="section">
+        <img src="images/sima.png" alt="sima" />
+        <p>φωτοκύτταρο.</p>
+
+        <div id="home--article">
+          <article>
+            Από το 1995 μέχρι και σήμερα, προσφέρουμε την γρήγορη και άμεση
+            εξυπηρέτηση μας, στην καρδιά της Κατερίνης. Σήμερα το Φωτοκύτταρο
+            μεγαλώνει, και γίνεται online. Mέσα από το καινούργιο μας Website,
+            σας προσφέρουμε την δυνατότητα να εξυπηρετηθείτε ακόμη πιο εύκολα,
+            ακόμη πιο γρήγορα, ακόμη πιο οικονομικά.
+          </article>
+        </div>
+        <div id="ypiresies">
+          <table>
+            <tr>
+              <th><i class="fa-solid fa-print"></i></th>
+              <th><i class="fa-solid fa-pen"></i></th>
+              <th><i class="fa-solid fa-address-card"></i></th>
+              <th><i class="fa-solid fa-map"></i></th>
+            </tr>
+            <tr>
+              <td>ψηφιακές εκτυπώσεις</td>
+              <td>σχολικά είδη</td>
+              <td>επαγγελματικές κάρτες</td>
+              <td>τοπογιαφικά σχέδια</td>
+            </tr>
+          </table>
+        </div>
+      </section>
+      <section id="location--2" class="section">
+        <div>
+          <p class="section--tittle">
+            <span><i class="fa-solid fa-location-dot"></i> <br /> </span> η
+            τοποθεσία μας.
+          </p>
+          <article>
+            Θα μας βρείτε στο κέντρο της Κατερίνης, στην διεύθυνση 25ης Μαρτίου
+            15. Το κατάστημά μας βρίσκεται απέναντι από το πάρκο του Ευκαρπίδη
+          </article>
+          <a
+            href="https://www.google.com/maps/place/%CE%A6%CF%89%CF%84%CE%BF%CE%BA%CF%8D%CF%84%CF%84%CE%B1%CF%81%CE%BF+-+%CE%9A%CE%AD%CE%BD%CF%84%CF%81%CE%BF+%CF%86%CF%89%CF%84%CE%BF%CF%84%CF%85%CF%80%CE%AF%CE%B1%CF%82/@40.2701411,22.5078194,17z/data=!3m1!4b1!4m5!3m4!1s0x1358023a81402155:0x87397ed91ced3008!8m2!3d40.2701017!4d22.5099474"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img id="map" src="images/map.png" alt="Google Maps Location" />
+          </a>
+        </div>
+      </section>
+      <section id="calculator--3" class="section">
+        <p class="section--tittle">
+          <span><i class="fa-solid fa-calculator"></i></span> <br />
+          calculator.
+        </p>
+        <div id="button--container">
+          <input
+            id="photocopies--button"
+            class="button selected"
+            type="button"
+            value="φωτοτυπίες"
+          />
+          <input
+            id="kartes--button"
+            class="button"
+            type="button"
+            value="επαγγελματικές κάρτες"
+          />
+          <input
+            id="sxedia--button"
+            class="button"
+            type="button"
+            value="σχέδια"
+          />
+        </div>
+
+        <section id="photocopies" class="calc--section">
+          <div class="item" id="number--of--pages--text">αριθμός σελίδων</div>
+
+          <div class="item">
+            <input type="number" id="number--of--photocopies" />
+          </div>
+
+          <div class="item">
+            <input type="checkbox" id="dublex" name="dublex" value="dublex" />
+            <label for="dublex">διπλής όψης</label>
+          </div>
+
+          <div class="item">
+            <input
+              type="radio"
+              id="black"
+              name="black--color"
+              checked="checked"
+              value="black"
+            />
+            <label for="black">ασπρόμαυρη</label>
+          </div>
+
+          <div class="item">
+            <input type="radio" id="color" name="black--color" value="color" />
+            <label for="color">έγχρωμη</label>
+          </div>
+
+          <div class="hr">
+            <hr />
+          </div>
+
+          <div class="item calculate--button" id="photocopies--price--button">
+            Yπολογισμος
+          </div>
+
+          <div class="item price--field" id="photocopies--price"></div>
+        </section>
+
+        <section id="sxedio" class="hidden calc--section">
+          <div id="ypsos--platos">
+            <p class="item centr">ύψος <span class="cm">(cm)</span></p>
+            <input class="item" type="number" name="ypsos" id="ypsos" />
+            <p class="item centr">πλάτος <span class="cm">(cm)</span></p>
+            <input class="item" type="number" name="platos" id="platos" />
+            <p class="item centr">αντίγραφα</p>
+            <input class="item" type="number" name="copies" id="copies" />
+          </div>
+
+          <div class="item">
+            <input
+              type="radio"
+              id="black--sxedio"
+              name="black--color--sxedio"
+              value="black--sxedio"
+              checked="checked"
+            />
+            <label for="black--sxedio">ασπρόμαυρo</label>
+          </div>
+
+          <div class="item">
+            <input
+              type="radio"
+              id="color--sxedio"
+              name="black--color--sxedio"
+              value="color--sxedio"
+            />
+            <label for="color--sxedio">έγχρωμo</label>
+          </div>
+          <div>
+            <label for="paper">χαρτί </label>
+            <select id="paper" name="paper">
+              <option value="aplo">Απλό</option>
+              <option value="xartoni">Χαρτόνι</option>
+              <option value="gialystero">Γυαλιστερό</option>
+              <option value="aytokollito">Αυτοκόλλητο</option>
+              <option value="rizoxarto">Ριζόχαρτο</option>
+            </select>
+          </div>
+
+          <div class="hr">
+            <hr />
+          </div>
+
+          <div class="item calculate--button" id="sxedio--price--button">
+            Yπολογισμος
+          </div>
+
+          <div class="item price--field" id="sxedio--price"></div>
+        </section>
+
+        <section id="kartes" class="hidden calc--section">
+          <div>
+            <p class="item">αριθμός καρτών</p>
+            <input
+              class="item"
+              type="number"
+              name="kartes--number"
+              id="kartes--number"
+            />
+          </div>
+
+          <div class="item">
+            <input
+              type="checkbox"
+              id="dublex--kartes"
+              name="dublex--kartes"
+              value="dublex--kartes"
+            />
+            <label for="dublex--kartes">διπλής όψης</label>
+          </div>
+
+          <div class="item">
+            <input
+              type="radio"
+              id="black"
+              name="black--color--kartes"
+              value="black--kartes"
+              checked="ckecked"
+            />
+            <label for="black--kartes">ασπρόμαυρες</label>
+          </div>
+
+          <div class="item">
+            <input
+              type="radio"
+              id="color--kartes"
+              name="black--color--kartes"
+              value="color--kartes"
+            />
+            <label for="color--kartes">έγχρωμες</label>
+          </div>
+
+          <div class="hr">
+            <hr />
+          </div>
+
+          <div class="item calculate--button" id="kartes--price--button">
+            Yπολογισμος
+          </div>
+
+          <div class="item price--field" id="kartes--price"></div>
+        </section>
+
+        <p id="discount">
+          Για μεγάλες ποσότητες φωτοτυπιών, καρτών αλλά και σχεδίων,
+          πραγματοποιούνται εκπτώσεις έως και 40%
+        </p>
+      </section>
+
+      <section id="about--us--3" class="section">
+        <p class="section--tittle">
+          <span><i class="fa-solid fa-users-gear"></i></span> <br />
+          about us.
+        </p>
+        <article>
+          Το φωτοκύτταρο δημιουργήθηκε το 1996 από τον Χρήστο. <br />
+          Η σκέψη ήταν απλή. Ένα γρήγορο και οικονομικό κέντρο φωτοτυπίας στην
+          καρδία της πόλης, έτοιμο να εξυπηρετήσει με τον καλύτερο δυνατό τρόπο
+          κάθε πελάτη που μας εμπιστεύεται. Το κατάστημα άνοιξε την πόρτα του το
+          1996, η πρώτη κόκκινη vespa στάθμευσε από έξω, και γρήγορα έγινε
+          συνώνυμο με τις ώρες λειτουργίας του καταστήματος μας. Η εργατικότητα
+          μας έφερε την γνώση, και η γνώση με την σειρά της μας έφερε την
+          εμπειρία. Από μία απλή φωτοτυπία, μέχρι τα προσκλητήρια του γάμου σας
+          ή την ψηφιοποίηση του αρχείου σας, αποτελούμε εδώ και 26 χρόνια την
+          πιο ολοκληρωμένη, ποιοτική, γρήγορη και οικονομική λύση στον χώρο των
+          ψηφιακών εκτυπώσεων. <br />
+          Σας ευχαριστούμε για την εμπιστοσύνη που μας δείχνετε καθημερινά.
+        </article>
+
+        <img id="vespa" src="images/vespa.png" alt="Vespa Picture" />
+      </section>
+
+      <section id="contact--4" class="section">
+        <p class="section--tittle">
+          <span><i class="fa-solid fa-phone"></i></span> <br />
+          contact.
+        </p>
+
+        <table>
+          <tr>
+            <td><i class="fa-solid fa-phone"></i></td>
+            <td>23510 - 23897</td>
+          </tr>
+          <tr>
+            <td><i class="fa-brands fa-facebook-messenger"></i></td>
+            <td>Φωτοκύτταρο κέντρο φωτοτυπίας</td>
+          </tr>
+          <tr>
+            <td>
+              <i class="fa-solid fa-square-envelope"></i>
+            </td>
+            <td>fotokyt8@gmail.com</td>
+          </tr>
+
+          <tr>
+            <td><i class="fa-brands fa-viber"></i></td>
+            <td>+30 6977145030</td>
+          </tr>
+        </table>
+      </section>
+    </main>
+  </body>
+</html>
