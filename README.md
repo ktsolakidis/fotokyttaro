@@ -1,4 +1,7 @@
 # fotokyttaro
+
+Application 1 - HTML CSS & Javascript first static Website
+
 Responsive Static WebSite for Fotokyttaro.
 
 This is the first static Website I ever made using just HTML, CSS and Javacript.
